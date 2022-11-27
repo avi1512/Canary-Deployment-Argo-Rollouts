@@ -15,6 +15,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: active-svc
+            name: canary-svc
             port:
-              number: 80
+              number: 8080
